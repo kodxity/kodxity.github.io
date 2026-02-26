@@ -1,1 +1,66 @@
-hello world
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kodxity | Tech Portfolio</title>
+    <meta
+      name="description"
+      content="Personal website for Kodxity: tech profile, social links, and resume."
+    />
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <h1>Hi, I'm Kevin.</h1>
+        <p class="tagline">
+          Software Engineering Student at University of Waterloo
+        </p>
+      </section>
+
+      <section class="content">
+        <div>
+          <h2 class="section-title">Links</h2>
+          <div class="links">
+            <a
+              class="button"
+              href="https://github.com/kodxity"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+            <a
+              class="button"
+              href="https://www.linkedin.com/in/kodxity"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+            <a
+              class="button"
+              href="https://x.com/kodxity"
+              target="_blank"
+              rel="noopener noreferrer"
+              >X / Twitter</a
+            >
+            <a
+              class="button"
+              href="/public/resume-public.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Resume</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <span id="year"></span>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
